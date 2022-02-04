@@ -1,74 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sito ufficiale Epicode School">
-    <link rel="stylesheet" href="assets/css/file.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/print.css" type="text/css">
-    <title>Epicode School</title>
-</head>
-<body>
-    <header>
-            <div>
-                <img src="assets/images/logo.png" alt="logo Epicode School" title="Il nostro logo">
-            </div>
-    </header>
-    <main>
-        <section id="sezione1">
-            <h1>corso web developer</h1>
-            <p>Smetti di inseguire i titoli,inizia a lavorare. <br>Mentre tutti vogliono arricchire il CV, tu pensa ad arricchire le tue competenze.</p>
-            <br>
-            <p>
-                <a href="#andiamo" id="bottone">Partiamo!</a>
-            </p>
-        </section>
-        <section id="sezione2">
-            <h2>Tutti ti cercheranno</h2>
-            <p> Sono 30.000 in italia le posizioni di developer scoperte, scegli quella che ti stimola di piu'</p>
-            <h2>Lavora dove vuoi</h2>
-            <p>Lavora da casa,in riva al o in montagna</p>
-            <img class="rounded-notebook" src="assets/images/notebook.jpg">
-            <h2>Scegli il tuo ruolo</h2>
-            <p>Potrai scegliere se essere Azienda,Freelance o Startup</p>
-            <h2>Lavoro in libertà</h2>
-            <p>Non serve lavorare in ufficio per essere creatori di prodorri digitali</p>
-        </section>
-        <article>
-            <h2>Epicode garantisce</h2>
-            <cite>"3 mesi intensivi di corso che cambieranno radicalmente la tua vita"</cite>
-            <p id="mariorossi">Mario Rossi</p>
-            <p id="ceo">CEO,Epicode</p>
-        </article>
-    </main>
-    <aside>
-        <section>
-            <img src="assets/images/foto1.jpg" alt="">
-            <h2>Il tuo pc</h2>
-            <p>Se vuoi diventare developer è l'unico strumento di cui hai bisogno</p>
-        </section>
-        <section>
-            <img src="assets/images/foto2.jpg" alt="">
-            <h2>Impara ora</h2>
-            <p>Impara da chi diventerai tra qualche anno e diventa una rockstar come loro</p>
-        </section>
-        <section>
-            <img src="assets/images/foto3.jpg" alt="">
-            <h2>Lavora subito</h2>
-            <p>Sappiamo cosa vogliono le aziende, perchè lavoriamo con loro</p>
-        </section>
-    </aside>
-    <footer>
-        <h2 id="andiamo" >Contattaci</h2>
 
-                <address><span class="icon fa-phone"> </span> <a href="tel:+3911223456">(+39)11223456</a> <br></address>
-                <address><span class="icon fa-envelope"> </span> <a href="malito:info@epicode.school">info@epicode.school</a> <br></address>
-                <address><span class="icon fa-map-marker"> </span> Via Appia 1 - 00100 Roma(RM)</address>
-        
-        <hr>
-        <p class="copyright">&copy;2021.immagini di pixabay.</p>     
-    </footer>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Epicode School</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/stile.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.4em;
+    }
+  </style>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Chi Siamo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contatti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="bluegradient">Registrati</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Banner-->
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="shadow">Diventa un Developer EPICO</h1>
+          <p id="shadow">Diventa un Developer EPICO e ti troviamo noi il lavoro. Scommettiamo su di te: paghi metà
+            corso, l'altra metà solo quando inizi a lavorare.</p>
+          <a href="#" class="btn" id="bluegradient">Chiedi Info</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--New Row-->
+  <!--Opportunità-->
+  <section id="section">
+    <div class="container">
+      <div class="row" id="single-col">
+        <div class="col-md-8 mx-auto text-center">
+          <h2 class="" id="h2smallblue">Perché diventare un Developer</h2>
+          <p class="item">Non servono laurea e copmetenze specifiche, solo impegno.
+            Segui il corso online, dove vuoi tu.
+            Il alvoro che andrai a fare è veramente figo.
+          </p>
+        </div>
+      </div>
+
+      <!--New Row-->
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="iconbox">
+            <i id="chat" class='bx bx-chat bx-tada bx-rotate-90 style="'></i>
+          </div>
+          <h4 id="h4smallblue">Tutti ti cercheranno</h4>
+          <p id="paragraph">Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di
+            più</p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="iconbox">
+            <i class='bx bx-location-plus bx-flashing'></i>
+          </div>
+          <h4 id="h4smallblue">Potrai lavorare da dove vuoi</h4>
+          <p id="paragraph">Non serve lavorare in ufficio per essere creatori di prodotti digitali e le aziende lo
+            sanno. Lavora da casa, in riva al mare o in montagna.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="iconbox">
+            <i class='bx bx-group bx-flashing'></i>
+          </div>
+          <h4 id="h4smallblue">Azienda, Freelance o Startup</h4>
+          <p id="paragraph">Scegli più facilmente la carriera e il rapporto di lavoro che ti piace di più, in qualsiasi
+            momento.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--New Row-->
+
+  <div id="bluebg" class="container-fluid">
+    <div class="row" id="single-col">
+      <div class="col-md-8 mx-auto text-center">
+        <h2 class="text-white" id="h2spec">Ma chi è il Developer oggi?</h2>
+        <p class="item text-white">Se non lo sai te lo diciamo noi: il futuro è dei developer
+        </p>
+        <a href="#" class="btn marginbtn" id="bluegradient">Scrivici!</a>
+      </div>
+    </div>
+  </div>
+
+  <!--New Row-->
+
+  <section id="m-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="assets/img/notebook.jpg" alt="">
+        </div>
+
+        <div class="col-lg-6">
+          <div class="iconbox">
+            <i class='bx bx-cube-alt bx-spin bx-rotate-90'></i>
+          </div>
+          <h5 id="h4smallblue">Chi sarai</h5>
+          <p id="paragraph">Il creatore delle app che usi tutti i giorni</p>
+          <div class="iconbox">
+            <i class='bx bx-cube-alt bx-spin bx-rotate-90'></i>
+          </div>
+          <h5 id="h4smallblue">Chi diventerai</h5>
+          <p id="paragraph">Lo specialista padrone del suo tempo e spazio</p>
+          <div class="iconbox">
+            <i class='bx bx-cube-alt bx-spin bx-rotate-90'></i>
+          </div>
+          <h5 id="h4smallblue">Chi non sarai</h5>
+          <p id="paragraph">Il nerd incollato allo schermo</p>
+
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <footer id="section">
+    <div class="container">
+      <!--New Row-->
+      <div class="row">
+        <div class="col-lg-4">
+          <h4 id="h5smallblue">Chi siamo</h4>
+          <p id="paragraph">Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.
+          </p>
+        </div>
+
+        <div class="col-lg-4">
+          <h4 id="h5smallblue">Ti piace ciò che vedi? Condividilo con i tuoi amici!</h4>
+
+          <a href="https://www.facebook.com/fregallo.junior" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="#"><i class='bx bxl-linkedin' style='color:#0085ff'></i></a> <a href="#"><i class='bx bxl-twitter'
+              style='color:#0085ff'></i></a>
+        </div>
+
+        <div class="col-lg-4">
+          <h4 id="h5smallblue">Iscriviti alla nostra newsletter</h4>
+
+          <a href="#" class="btn mt-3" id="bluegradient">Va bene!</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
