@@ -13,6 +13,11 @@ function clockUpdate(){
         h = h - 12;
         ampm = "PM"
     }
+    
+    h = h < 10 ? "0" + h : h;
+    m = m < 10 ? "0" + m : m;
+    s = s < 10 ? "0" + s : s;
+    
     hourEl.innerText = h;
     minuteEl.innerText = m;
     secondsEl.innerText = s;
